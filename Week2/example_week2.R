@@ -53,4 +53,4 @@ car_cost <- mutate(car_cost, Location = sapply(Location,as.factor));
 # change price to integer removing the $ sign
 car_cost <- mutate(car_cost, Price = as.integer(str_replace(str_sub(Price, 2, -1),",","")))
 
-join <- 
+
