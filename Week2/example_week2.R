@@ -2,7 +2,7 @@
 library(tidyverse);
 
 #Import the table
-DS <- read.table("C:/Users/User/Documents/BUINT/Week2/data/auto-mpg.data", quote="\"",comment.char="");
+DS <- read.table("C:/Users/User/Documents/rExercise/Week2/data/auto-mpg.data", quote="\"",comment.char="");
 #name the column
 names(DS) <- c("mpg","cylinders","displacement","horsepower","weight","acceleration","model year","origin","car name");
 #change the object to tibble objects
