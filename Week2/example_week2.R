@@ -24,8 +24,7 @@ select(DS, -1);
 
 #select column 2 3 4
 select(DS, 2,3,4);
-select(DS, 1,2);
-select(DS, c(mpg,2));
+select(DS, 1,2);select(DS, c(mpg,2));
 
 # Create a column based on the condition or calculation
 DS2 <- mutate(DS, a4w = acceleration/weight, pre75 = as.numeric(DS$`model year`<75));
